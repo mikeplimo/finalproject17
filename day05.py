@@ -1,0 +1,11 @@
+#This line will print the phrase "Say hello"
+print("Say hello")
+print(1 + 2)
+print(2 - 3)
+print(4 * 4)
+print(4 / 3)
+print(80 % 20)
+print(4 < 6)
+print(5 > 1)
+print(4 <= 4)
+print(4 >= 5)
