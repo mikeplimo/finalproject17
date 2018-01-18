@@ -6,15 +6,14 @@ class Humans:
         self.health = health
         self.attack = attack
         self.defence = defence
+    def dmg_taken
+
+    def dmg_given
+
 
 
 hum_1 = Human('Bob', 100, 25, 25)
 hum_2 = Human('Billy', 100, 25, 25)
-
-hum_1.name =
-hum_1.health =
-hum_1.attack =
-hum_1.defence =
 
 
 
