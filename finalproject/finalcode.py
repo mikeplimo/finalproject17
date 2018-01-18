@@ -1,16 +1,20 @@
 from math import sqrt
 
-class Human():
-    def __init__(self, x=100, y=25, z=30):
-        self.health = x
-        self.defence = y
-        self.attack = z
+class Humans:
+    def __init__(self, name, health, attack, defence):
+        self.name = name
+        self.health = health
+        self.attack = attack
+        self.defence = defence
 
-    def increase_stat(self, x_increment=0, y_increment=1, z_increment=1):
-        self.health += x_increment
-        self.defence += y_increment
-        self.attack += z_increment
 
+hum_1 = Human('Bob', 100, 25, 25)
+hum_2 = Human('Billy', 100, 25, 25)
+
+hum_1.name =
+hum_1.health =
+hum_1.attack =
+hum_1.defence =
 
 
 
