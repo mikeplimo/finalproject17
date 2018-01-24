@@ -4,3 +4,5 @@ calculated for them and given to them. Good luck players!
 
 
 (The years for when the songs are released are just from google searches, tennis facts are from a fun fact website, and the show questions I thought of on the spot.)
+https://docs.python.org/2.0/ref/strings.html
+Used to learn about \n and how it makes the text start on a new line.
