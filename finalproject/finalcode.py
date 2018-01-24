@@ -1,6 +1,8 @@
+# The first 3 lines are just introducing the game and how to play
 print("Hello and welcome to this year's version of Michael's Trivia! You will be asked a several questions about topics that Michael likes. Try your best to get as close to a 99.9 as possible!")
 print("When you answer a question, answer with the letter only.")
 print("Good Luck!")
+#a list of my questions with the multiple choice
 list_of_questions = [
     "Where is tennis believed to be originated from?\na - England\nb - France\nc - Canada\n\n\n",
     "When was the US Open founded?\na - yesterday\nb - 2020\nc - 1881\n\n\n",
@@ -33,10 +35,12 @@ list_of_questions = [
     "The English voice actor for Goku passed out after his epic transformation to Super Saiyan 4?\na - True\nb - False\n\n\n",
     "What is the name of Goku's main ki attack?\na - Kamehameha\nb - pew-pew\nc - Galik gun\n\n\n"
 ]
+# starting of the class. It has 2 components, the question and the answer
 class Question:
     def __init__(self, question, answer):
         self.question = question
         self.answer = answer
+# calculates the grade of the player
 def trivia_quiz(questions):
         grade = 0
         for question in questions:
@@ -46,6 +50,7 @@ def trivia_quiz(questions):
         print("Wow a " + str(grade) + "out of 99.9! Better luck next time.")
 Question
 trivia_quiz
+# the quiz being given question by question
 questions = [
         Question(list_of_questions[0], "b"),
         Question(list_of_questions[1], "c"),
@@ -78,4 +83,5 @@ questions = [
         Question(list_of_questions[28], "a"),
         Question(list_of_questions[29], "a")
     ]
+# the calculation of their grade
 trivia_quiz(questions)
