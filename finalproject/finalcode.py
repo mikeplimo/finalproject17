@@ -43,7 +43,7 @@ def trivia_quiz(questions):
             response = input(question.question)
             if response == question.answer:
                 grade += 3.33
-        print("Wow a " + str(grade) + "out of 99.9!")
+        print("Wow a " + str(grade) + "out of 99.9! Better luck next time.")
 Question
 trivia_quiz
 questions = [
