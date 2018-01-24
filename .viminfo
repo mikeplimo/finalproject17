@@ -7,10 +7,19 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/w'x
+
 # Command Line History (newest to oldest):
+:wq<Enter>
+:wq
 :quit 
 
 # Search String History (newest to oldest):
+?/w'x
+?/wx`
+?/w`
+?/w
 
 # Expression History (newest to oldest):
 
@@ -21,12 +30,26 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/first-repo/.git/COMMIT_EDITMSG
+'0  4  0  ~/.git/COMMIT_EDITMSG
+'1  1  41  ~/.git/COMMIT_EDITMSG
+'2  1  0  ~/first-repo/.git/COMMIT_EDITMSG
 
 # Jumplist (newest first):
+-'  4  0  ~/.git/COMMIT_EDITMSG
+-'  1  0  ~/.git/COMMIT_EDITMSG
+-'  1  0  ~/first-repo/.git/COMMIT_EDITMSG
+-'  1  0  ~/first-repo/.git/COMMIT_EDITMSG
+-'  1  0  ~/first-repo/.git/COMMIT_EDITMSG
 -'  1  0  ~/first-repo/.git/COMMIT_EDITMSG
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	"	4	0
+	^	1	42
+	.	2	0
+	+	2	0
+	e	2	2
 
 > ~/first-repo/.git/COMMIT_EDITMSG
 	"	1	0

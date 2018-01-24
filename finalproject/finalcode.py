@@ -1,19 +1,70 @@
-from math import sqrt
+print("When you answer a question, answer with the letter only.)
+class Question:
+    def __init__(self, question, answer):
+        self.question = question
+        self.answer = answer
 
-class Humans:
-    def __init__(self, name, health, attack, defence):
-        self.name = name
-        self.health = health
-        self.attack = attack
-        self.defence = defence
-    def dmg_taken
-
-    def dmg_given
-
-
-
-hum_1 = Human('Bob', 100, 25, 25)
-hum_2 = Human('Billy', 100, 25, 25)
-
-
-
+list_of_questions = [
+    "Where is tennis believed to be originated from?\na - England\nb - France\nc - Canada",
+    "When was the US Open founded?\na - yesterday\nb - 2020\nc - 1881",
+    "The longest tennis match took 11 hours and 5 minutes to complete?\na - True\nb - False",
+    "Where is tennis believed to be originated from?\na - England\nb - France\nc - Canada",
+    "Where is tennis believed to be originated from?\na - England\nb - France\nc - Canada",
+    "Where is tennis believed to be originated from?\na - England\nb - France\nc - Canada",
+    "Where is tennis believed to be originated from?\na - England\nb - France\nc - Canada",
+    "Where is tennis believed to be originated from?\na - England\nb - France\nc - Canada",
+    "Where is tennis believed to be originated from?\na - England\nb - France\nc - Canada",
+    "Where is tennis believed to be originated from?\na - England\nb - France\nc - Canada",
+    "Which artist released the song, 'Pop Style' in 2016?\na - Drake\nb - Kendrick\nc - Thomas the Tank Engine",
+    "Which artist released the song, 'Pop Style' in 2016?\na - Drake\nb - Kendrick\nc - Thomas the Tank Engine",
+    "Which artist released the song, 'Pop Style' in 2016?\na - Drake\nb - Kendrick\nc - Thomas the Tank Engine",
+    "Which artist released the song, 'Pop Style' in 2016?\na - Drake\nb - Kendrick\nc - Thomas the Tank Engine",
+    "Which artist released the song, 'Pop Style' in 2016?\na - Drake\nb - Kendrick\nc - Thomas the Tank Engine",
+    "Which artist released the song, 'Pop Style' in 2016?\na - Drake\nb - Kendrick\nc - Thomas the Tank Engine",
+    "Which artist released the song, 'Pop Style' in 2016?\na - Drake\nb - Kendrick\nc - Thomas the Tank Engine",
+    "Which artist released the song, 'Pop Style' in 2016?\na - Drake\nb - Kendrick\nc - Thomas the Tank Engine",
+    "Which artist released the song, 'Pop Style' in 2016?\na - Drake\nb - Kendrick\nc - Thomas the Tank Engine",
+    "Which artist released the song, 'Pop Style' in 2016?\na - Drake\nb - Kendrick\nc - Thomas the Tank Engine",
+    "Which of the following characters in the Dragon Ball series is bald?\na - Nappa\nb - Goku\nc - Gohan",
+    "Which of the following characters in the Dragon Ball series is bald?\na - Nappa\nb - Goku\nc - Gohan",
+    "Which of the following characters in the Dragon Ball series is bald?\na - Nappa\nb - Goku\nc - Gohan",
+    "Which of the following characters in the Dragon Ball series is bald?\na - Nappa\nb - Goku\nc - Gohan",
+    "Which of the following characters in the Dragon Ball series is bald?\na - Nappa\nb - Goku\nc - Gohan",
+    "Which of the following characters in the Dragon Ball series is bald?\na - Nappa\nb - Goku\nc - Gohan",
+    "Which of the following characters in the Dragon Ball series is bald?\na - Nappa\nb - Goku\nc - Gohan",
+    "Which of the following characters in the Dragon Ball series is bald?\na - Nappa\nb - Goku\nc - Gohan",
+    "Which of the following characters in the Dragon Ball series is bald?\na - Nappa\nb - Goku\nc - Gohan",
+    "Which of the following characters in the Dragon Ball series is bald?\na - Nappa\nb - Goku\nc - Gohan",
+]
+questions = [
+    Question(list_of_questions[0], "b"),
+    Question(list_of_questions[1], "b"),
+    Question(list_of_questions[2], "b"),
+    Question(list_of_questions[3], "b"),
+    Question(list_of_questions[4], "b"),
+    Question(list_of_questions[5], "b"),
+    Question(list_of_questions[6], "b"),
+    Question(list_of_questions[7], "b"),
+    Question(list_of_questions[8], "b"),
+    Question(list_of_questions[9], "b"),
+    Question(list_of_questions[10], "b"),
+    Question(list_of_questions[11], "b"),
+    Question(list_of_questions[12], "b"),
+    Question(list_of_questions[13], "b"),
+    Question(list_of_questions[14], "b"),
+    Question(list_of_questions[15], "b"),
+    Question(list_of_questions[16], "b"),
+    Question(list_of_questions[17], "b"),
+    Question(list_of_questions[18], "b"),
+    Question(list_of_questions[19], "b"),
+    Question(list_of_questions[0], "b"),
+    Question(list_of_questions[0], "b"),
+    Question(list_of_questions[0], "b"),
+    Question(list_of_questions[0], "b"),
+    Question(list_of_questions[0], "b"),
+    Question(list_of_questions[0], "b"),
+    Question(list_of_questions[0], "b"),
+    Question(list_of_questions[0], "b"),
+    Question(list_of_questions[0], "b"),
+    Question(list_of_questions[0], "b"),
+    ]
